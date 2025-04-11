@@ -1,0 +1,13 @@
+<% layout("layouts/boilerplate") %> 
+
+<div class="row mt-5">
+    <div class="alert alert-danger col-md-6 offset-md-3 d-flex align-items-center" role="alert">
+        <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:" width="24" height="24">
+            <path fill="currentColor" d="M7.938 2.016a.522.522 0 0 1 .923 0l6.857 11.682c.234.398-.052.9-.462.9H1.644c-.41 0-.696-.502-.462-.9L7.938 2.016zM8 10.82a.905.905 0 1 0 0-1.81.905.905 0 0 0 0 1.81m0 3.18c-.558 0-1.007-.45-1.007-1.007 0-.556.449-1.006 1.007-1.006s1.007.45 1.007 1.006c0 .557-.449 1.007-1.007 1.007"/>
+        </svg>
+        <div class="ms-2">
+            <h5 class="alert-heading m-0">Error</h5>
+            <p class="m-0"><%= message %></p>
+        </div>
+    </div>
+</div>
